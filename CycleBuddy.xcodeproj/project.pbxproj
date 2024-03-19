@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F664E36C2BAA2BCA00AAFE72 /* CycleBuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664E36B2BAA2BCA00AAFE72 /* CycleBuddyApp.swift */; };
+		F664E36E2BAA2BCA00AAFE72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664E36D2BAA2BCA00AAFE72 /* ContentView.swift */; };
+		F664E3702BAA2BCB00AAFE72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F664E36F2BAA2BCB00AAFE72 /* Assets.xcassets */; };
+		F664E3732BAA2BCB00AAFE72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F664E3722BAA2BCB00AAFE72 /* Preview Assets.xcassets */; };
+		F664E3792BAA2BCB00AAFE72 /* CycleBuddy Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F664E3782BAA2BCB00AAFE72 /* CycleBuddy Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F664E37E2BAA2BCB00AAFE72 /* CycleBuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664E37D2BAA2BCB00AAFE72 /* CycleBuddyApp.swift */; };
+		F664E3802BAA2BCB00AAFE72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664E37F2BAA2BCB00AAFE72 /* ContentView.swift */; };
+		F664E3822BAA2BCC00AAFE72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F664E3812BAA2BCC00AAFE72 /* Assets.xcassets */; };
+		F664E3852BAA2BCC00AAFE72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F664E3842BAA2BCC00AAFE72 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F664E37A2BAA2BCB00AAFE72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F664E3602BAA2BCA00AAFE72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F664E3772BAA2BCB00AAFE72;
+			remoteInfo = "CycleBuddy Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F664E38B2BAA2BCC00AAFE72 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F664E3792BAA2BCB00AAFE72 /* CycleBuddy Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F664E3682BAA2BCA00AAFE72 /* CycleBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CycleBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F664E36B2BAA2BCA00AAFE72 /* CycleBuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleBuddyApp.swift; sourceTree = "<group>"; };
+		F664E36D2BAA2BCA00AAFE72 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F664E36F2BAA2BCB00AAFE72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F664E3722BAA2BCB00AAFE72 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F664E3782BAA2BCB00AAFE72 /* CycleBuddy Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CycleBuddy Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F664E37D2BAA2BCB00AAFE72 /* CycleBuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleBuddyApp.swift; sourceTree = "<group>"; };
+		F664E37F2BAA2BCB00AAFE72 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F664E3812BAA2BCC00AAFE72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F664E3842BAA2BCC00AAFE72 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F664E3652BAA2BCA00AAFE72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F664E3752BAA2BCB00AAFE72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F664E35F2BAA2BCA00AAFE72 = {
+			isa = PBXGroup;
+			children = (
+				F664E36A2BAA2BCA00AAFE72 /* CycleBuddy */,
+				F664E37C2BAA2BCB00AAFE72 /* CycleBuddy Watch App */,
+				F664E3692BAA2BCA00AAFE72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F664E3692BAA2BCA00AAFE72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F664E3682BAA2BCA00AAFE72 /* CycleBuddy.app */,
+				F664E3782BAA2BCB00AAFE72 /* CycleBuddy Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F664E36A2BAA2BCA00AAFE72 /* CycleBuddy */ = {
+			isa = PBXGroup;
+			children = (
+				F664E36B2BAA2BCA00AAFE72 /* CycleBuddyApp.swift */,
+				F664E36D2BAA2BCA00AAFE72 /* ContentView.swift */,
+				F664E36F2BAA2BCB00AAFE72 /* Assets.xcassets */,
+				F664E3712BAA2BCB00AAFE72 /* Preview Content */,
+			);
+			path = CycleBuddy;
+			sourceTree = "<group>";
+		};
+		F664E3712BAA2BCB00AAFE72 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F664E3722BAA2BCB00AAFE72 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F664E37C2BAA2BCB00AAFE72 /* CycleBuddy Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				F664E37D2BAA2BCB00AAFE72 /* CycleBuddyApp.swift */,
+				F664E37F2BAA2BCB00AAFE72 /* ContentView.swift */,
+				F664E3812BAA2BCC00AAFE72 /* Assets.xcassets */,
+				F664E3832BAA2BCC00AAFE72 /* Preview Content */,
+			);
+			path = "CycleBuddy Watch App";
+			sourceTree = "<group>";
+		};
+		F664E3832BAA2BCC00AAFE72 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F664E3842BAA2BCC00AAFE72 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F664E3672BAA2BCA00AAFE72 /* CycleBuddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F664E38C2BAA2BCC00AAFE72 /* Build configuration list for PBXNativeTarget "CycleBuddy" */;
+			buildPhases = (
+				F664E3642BAA2BCA00AAFE72 /* Sources */,
+				F664E3652BAA2BCA00AAFE72 /* Frameworks */,
+				F664E3662BAA2BCA00AAFE72 /* Resources */,
+				F664E38B2BAA2BCC00AAFE72 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F664E37B2BAA2BCB00AAFE72 /* PBXTargetDependency */,
+			);
+			name = CycleBuddy;
+			productName = CycleBuddy;
+			productReference = F664E3682BAA2BCA00AAFE72 /* CycleBuddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F664E3772BAA2BCB00AAFE72 /* CycleBuddy Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F664E3882BAA2BCC00AAFE72 /* Build configuration list for PBXNativeTarget "CycleBuddy Watch App" */;
+			buildPhases = (
+				F664E3742BAA2BCB00AAFE72 /* Sources */,
+				F664E3752BAA2BCB00AAFE72 /* Frameworks */,
+				F664E3762BAA2BCB00AAFE72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CycleBuddy Watch App";
+			productName = "CycleBuddy Watch App";
+			productReference = F664E3782BAA2BCB00AAFE72 /* CycleBuddy Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F664E3602BAA2BCA00AAFE72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					F664E3672BAA2BCA00AAFE72 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					F664E3772BAA2BCB00AAFE72 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = F664E3632BAA2BCA00AAFE72 /* Build configuration list for PBXProject "CycleBuddy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F664E35F2BAA2BCA00AAFE72;
+			productRefGroup = F664E3692BAA2BCA00AAFE72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F664E3672BAA2BCA00AAFE72 /* CycleBuddy */,
+				F664E3772BAA2BCB00AAFE72 /* CycleBuddy Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F664E3662BAA2BCA00AAFE72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F664E3732BAA2BCB00AAFE72 /* Preview Assets.xcassets in Resources */,
+				F664E3702BAA2BCB00AAFE72 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F664E3762BAA2BCB00AAFE72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F664E3852BAA2BCC00AAFE72 /* Preview Assets.xcassets in Resources */,
+				F664E3822BAA2BCC00AAFE72 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F664E3642BAA2BCA00AAFE72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F664E36E2BAA2BCA00AAFE72 /* ContentView.swift in Sources */,
+				F664E36C2BAA2BCA00AAFE72 /* CycleBuddyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F664E3742BAA2BCB00AAFE72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F664E3802BAA2BCB00AAFE72 /* ContentView.swift in Sources */,
+				F664E37E2BAA2BCB00AAFE72 /* CycleBuddyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F664E37B2BAA2BCB00AAFE72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F664E3772BAA2BCB00AAFE72 /* CycleBuddy Watch App */;
+			targetProxy = F664E37A2BAA2BCB00AAFE72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F664E3862BAA2BCC00AAFE72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F664E3872BAA2BCC00AAFE72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F664E3892BAA2BCC00AAFE72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CycleBuddy Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = X67TLHFY58;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CycleBuddy;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.jonytipton.CycleBuddy;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonytipton.CycleBuddy.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		F664E38A2BAA2BCC00AAFE72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CycleBuddy Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = X67TLHFY58;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CycleBuddy;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.jonytipton.CycleBuddy;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonytipton.CycleBuddy.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		F664E38D2BAA2BCC00AAFE72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CycleBuddy/Preview Content\"";
+				DEVELOPMENT_TEAM = X67TLHFY58;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CycleBuddy;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonytipton.CycleBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F664E38E2BAA2BCC00AAFE72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CycleBuddy/Preview Content\"";
+				DEVELOPMENT_TEAM = X67TLHFY58;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CycleBuddy;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonytipton.CycleBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F664E3632BAA2BCA00AAFE72 /* Build configuration list for PBXProject "CycleBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F664E3862BAA2BCC00AAFE72 /* Debug */,
+				F664E3872BAA2BCC00AAFE72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F664E3882BAA2BCC00AAFE72 /* Build configuration list for PBXNativeTarget "CycleBuddy Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F664E3892BAA2BCC00AAFE72 /* Debug */,
+				F664E38A2BAA2BCC00AAFE72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F664E38C2BAA2BCC00AAFE72 /* Build configuration list for PBXNativeTarget "CycleBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F664E38D2BAA2BCC00AAFE72 /* Debug */,
+				F664E38E2BAA2BCC00AAFE72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F664E3602BAA2BCA00AAFE72 /* Project object */;
+}
