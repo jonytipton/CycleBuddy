@@ -13,9 +13,15 @@
 		F664E3732BAA2BCB00AAFE72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F664E3722BAA2BCB00AAFE72 /* Preview Assets.xcassets */; };
 		F664E3792BAA2BCB00AAFE72 /* CycleBuddy Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F664E3782BAA2BCB00AAFE72 /* CycleBuddy Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F664E37E2BAA2BCB00AAFE72 /* CycleBuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664E37D2BAA2BCB00AAFE72 /* CycleBuddyApp.swift */; };
-		F664E3802BAA2BCB00AAFE72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664E37F2BAA2BCB00AAFE72 /* ContentView.swift */; };
+		F664E3802BAA2BCB00AAFE72 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664E37F2BAA2BCB00AAFE72 /* StartView.swift */; };
 		F664E3822BAA2BCC00AAFE72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F664E3812BAA2BCC00AAFE72 /* Assets.xcassets */; };
 		F664E3852BAA2BCC00AAFE72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F664E3842BAA2BCC00AAFE72 /* Preview Assets.xcassets */; };
+		F664E3902BAA2E5100AAFE72 /* SessionPagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664E38F2BAA2E5100AAFE72 /* SessionPagingView.swift */; };
+		F664E3922BAA2FFD00AAFE72 /* MetricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664E3912BAA2FFD00AAFE72 /* MetricsView.swift */; };
+		F664E3942BAA31EF00AAFE72 /* ElapsedTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664E3932BAA31EF00AAFE72 /* ElapsedTimeView.swift */; };
+		F664E3962BAA352600AAFE72 /* ControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664E3952BAA352600AAFE72 /* ControlsView.swift */; };
+		F664E3982BAA371500AAFE72 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664E3972BAA371500AAFE72 /* SummaryView.swift */; };
+		F664E39A2BAA3AE900AAFE72 /* ActivityRingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664E3992BAA3AE900AAFE72 /* ActivityRingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,9 +56,15 @@
 		F664E3722BAA2BCB00AAFE72 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F664E3782BAA2BCB00AAFE72 /* CycleBuddy Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CycleBuddy Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F664E37D2BAA2BCB00AAFE72 /* CycleBuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleBuddyApp.swift; sourceTree = "<group>"; };
-		F664E37F2BAA2BCB00AAFE72 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F664E37F2BAA2BCB00AAFE72 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		F664E3812BAA2BCC00AAFE72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F664E3842BAA2BCC00AAFE72 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F664E38F2BAA2E5100AAFE72 /* SessionPagingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionPagingView.swift; sourceTree = "<group>"; };
+		F664E3912BAA2FFD00AAFE72 /* MetricsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricsView.swift; sourceTree = "<group>"; };
+		F664E3932BAA31EF00AAFE72 /* ElapsedTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElapsedTimeView.swift; sourceTree = "<group>"; };
+		F664E3952BAA352600AAFE72 /* ControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsView.swift; sourceTree = "<group>"; };
+		F664E3972BAA371500AAFE72 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		F664E3992BAA3AE900AAFE72 /* ActivityRingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +126,13 @@
 			isa = PBXGroup;
 			children = (
 				F664E37D2BAA2BCB00AAFE72 /* CycleBuddyApp.swift */,
-				F664E37F2BAA2BCB00AAFE72 /* ContentView.swift */,
+				F664E37F2BAA2BCB00AAFE72 /* StartView.swift */,
+				F664E38F2BAA2E5100AAFE72 /* SessionPagingView.swift */,
+				F664E3912BAA2FFD00AAFE72 /* MetricsView.swift */,
+				F664E3932BAA31EF00AAFE72 /* ElapsedTimeView.swift */,
+				F664E3952BAA352600AAFE72 /* ControlsView.swift */,
+				F664E3972BAA371500AAFE72 /* SummaryView.swift */,
+				F664E3992BAA3AE900AAFE72 /* ActivityRingsView.swift */,
 				F664E3812BAA2BCC00AAFE72 /* Assets.xcassets */,
 				F664E3832BAA2BCC00AAFE72 /* Preview Content */,
 			);
@@ -240,8 +258,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F664E3802BAA2BCB00AAFE72 /* ContentView.swift in Sources */,
+				F664E3802BAA2BCB00AAFE72 /* StartView.swift in Sources */,
+				F664E3982BAA371500AAFE72 /* SummaryView.swift in Sources */,
 				F664E37E2BAA2BCB00AAFE72 /* CycleBuddyApp.swift in Sources */,
+				F664E3942BAA31EF00AAFE72 /* ElapsedTimeView.swift in Sources */,
+				F664E3922BAA2FFD00AAFE72 /* MetricsView.swift in Sources */,
+				F664E39A2BAA3AE900AAFE72 /* ActivityRingsView.swift in Sources */,
+				F664E3962BAA352600AAFE72 /* ControlsView.swift in Sources */,
+				F664E3902BAA2E5100AAFE72 /* SessionPagingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
